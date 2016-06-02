@@ -24,5 +24,3 @@ if [ -e "${BASEDIR}/bin/ruby" ]; then
 fi
 
 /usr/local/bin/ruby-build "$1" "$BASEDIR"
-
-chruby-exec "$1" -- gem install bundler
